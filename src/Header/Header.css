@@ -1,0 +1,32 @@
+.Layout{
+    margin:0;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid lightgray;
+}
+.LeftHeader{
+    display: flex;
+    flex-flow: row;
+    flex:1;
+}
+.Logo{
+    align-items: center;
+    flex:0.2 1;
+    height:100%;
+}
+.RightHeader{
+    display: flex;
+    flex-flow: row;
+    flex:1;
+}
+.HeaderComponent{
+    flex: 1;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+.HeaderComponent p:hover{
+    color:lime;
+}
