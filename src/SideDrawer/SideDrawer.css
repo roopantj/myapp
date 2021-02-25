@@ -1,0 +1,28 @@
+.Sidedrawer{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    width: 250px;
+    max-width: 60%; 
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+    padding: 32px 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    
+}
+.Sidedrawer.open{
+    transform: translateX(0);
+}
+.Sidedrawer.close{
+    transform: translateX(-100%);
+}
+.Backdrop{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}

@@ -30,3 +30,26 @@
 .HeaderComponent p:hover{
     color:lime;
 }
+.Toolbar{
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;    
+}
+@media (max-width: 480px){
+    .LeftHeader{
+        display: none;
+    }
+    .RightHeader{
+        display: none;
+    }
+    .Logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 481px){
+    .Toolbar{
+        display: none;
+    }
+}
