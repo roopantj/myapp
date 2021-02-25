@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header/Header';
-import Image from '../src/IMAGE.jpeg';
 import './App.css';
 
 class App extends React.Component {
